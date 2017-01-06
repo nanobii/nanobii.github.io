@@ -9,18 +9,29 @@
   }
 
   html {
-    background: url('bg.gif') no-repeat center center fixed;
+    background: url('chipland.gif') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
 
-  a {
+  .top_right {
     position: absolute;
     top: 1em;
     right: 1em;
     text-align: right;
+  }
+
+  .bottom_right {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    text-align: right;
+    line-height: 1.5em;
+  }
+
+  a {
     font-weight: bold;
     text-decoration: none;
     color: white;
@@ -29,6 +40,14 @@
 </style>
 </head>
 <body>
-  <a href="https://twitter.com/Kirokaze" target="_blank">@kirokaze</a>
+  <div class="top_right">
+    <a href="https://twitter.com/Kirokaze" target="_blank">@kirokaze</a>
+  </div>
+
+  <div class="bottom_right">
+    <a href="chipland.gif" target="_blank">.gif</a>
+    <br>
+    <a href="chipland.png" target="_blank">.png</a>
+  </div>
 </body>
 </html>
