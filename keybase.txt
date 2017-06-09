@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/nanobii
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://nanobii.com
+  * I am nanobii (https://keybase.io/nanobii) on keybase.
+  * I have a public key with fingerprint 1202 81E3 C575 673D 8040  ABD1 D445 240B BDE0 D384
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120b430bd7913e4deed6043ce65dcfcd7a298bfd57034b5966179c0115c9d3987a60a",
+            "fingerprint": "120281e3c575673d8040abd1d445240bbde0d384",
+            "host": "keybase.io",
+            "key_id": "d445240bbde0d384",
+            "kid": "0101a6d6918a80d61a3bb9f6bcba0e224799c84fe16f9a71401efdf46edbc42d2efd0a",
+            "uid": "74a59aefcbf211e20cb3fec59b97c219",
+            "username": "nanobii"
+        },
+        "service": {
+            "hostname": "nanobii.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1497014479,
+    "expire_in": 157680000,
+    "prev": "febfbfbffb0ca4f8dda1fef97265e9632e33879ad28c8025a0622f7ca87bfff5",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.71
+Comment: https://keybase.io/crypto
+
+yMNwAnicbVJrUFVVFL6ASHDHCIpSjJAjNkODtM/7nEtIPIOJUJwwEIrOOXufyxG4
+93rv4XFlGBvAgcCIBC0mHHwmImVMDgJlPoDqZqCFZFqDVtAMDY94DCgIdS6TP5pp
+7x971trf961vrVk9a9x0Xi434oL1F+4OlLtcvVyfr0s3HLlWjIlmaMcMxVgOWnlQ
+LkQ2NStHgZgBAzgBRIoEImR5nEQURAgygCIlxNBQkiXICgTPiTKkWUBSIs0zDM7y
+EsBxWuIhyXOswAABC8VkxWREVotVMamarKZKcDgiJZqlGZaEHKCAIEIcUhRNUEAU
+IQKQ5CiNmG22ORmaOVGwoTDFrOW0IGvF3v/gH/oGuMBAhsc5gQOQwQVSFHmZESVR
+AIggKJbnJY6SEc7IvMDiFMCRDGWKQVCUKAISWrTiO39FjqUEmheQLIkygeOIAJJI
+ykiieZFnJQLnnUAbspqEPKShTYLJLCoKVhKKackCRULOuTob+S8gTDLnaUyL1aya
+JXOu9pGtqhaDk6faLU5gIRKz/pXIEhUT1IaoEQqQ1aaYTZgB15CSqjg1cYpnAU5p
+fYViqMiiWFGW4kTQLMMB7TjLoAJNUkai7LyyCCSBkjkIBVxGMs8SDI14hiQQSXIs
+L0CCkzhA0AJgCEJmJYFjNZJMY86mdpvMmEGrpApGTdKmGE2Cmm9FWMmVy5mrdC5e
+utXurs7l0nl5PvZw5WZjvZfJdtebgWrH7cjI6MAL+1468P6luP7xgf0J+Q8q4ztH
+WpP6g/66F6Mf756M/205MyjlEH+45+XUYXPZTEaC7xa//tzw9Y9sXX+qty7RbaZ6
+7raxfRO5LXHju5scT7aGVzTt3Vybd9Ij2Kc9P+qZM0Rbdk1p9fMf2kbA0b5Z+ge/
+aN3B+Yn9T0SsO14P9Cd8ZhYqmzNHd7Xm/9yV4f/VjrI/P9LF/D2ZjcTFKbM9cAPq
+eH322eSYqraG+lf2Hm9cOlxdONV0YmjLmD9KiC3cU5ZXEXE1c4KpfVw9n1QSuMrT
+lbfujutriey23fJZHe8WfHHE8c1crRrQ9/XSW74bS5srt20f3hn5B2koX6c/lXj/
+WqKlyftL97TkHRmVu2oWhfRBoEsI+Ly1NGe2+PuiumPDze1BLeUpD667dHqPG1Ov
+n93gWOxq6JpcezGo5s7bQ7iHIyg2ZmEq2eEx7fm7bs95e8q908PGlDXhqZNy3ZXo
+5x79Ke/pF0Ni5e2NpzssPxaFfDBdVXqW//jWQMNTI51y1MGwjHQ2Yu0vd9IaF0K2
+ftZ9SZe4OS2keOfg/Dup7t5qmj1q8BwJ2op6Qqkz0szY2L6j2Y24vtd+rHfJZbrj
+1aplz4mTo5+8+V7Ltwfw8KG7fhGvzSfdiD7i69M0EKF/YejTcxX3R9/41b083j/g
+ZmUYPrf0naPrEPyi1P4P0CnDOw==
+=czmK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nanobii
+
+==================================================================
