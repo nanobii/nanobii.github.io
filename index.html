@@ -4,8 +4,18 @@
   <meta charset="utf-8">
   <title>nanobii</title>
   <style>
+    html {
+      height: 100%;
+    }
+
     body {
+      height: 100%;
+      margin: 0;
+      background: #00d2ff;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to top, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to top, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       font-family: Sans-Serif;
+      color: #fff;
     }
 
     .content {
@@ -18,6 +28,11 @@
       text-align: center;
     }
 
+    img {
+      width: 24em;
+      margin-bottom: 1em;
+    }
+
     a {
       padding: 0px 5px;
       word-wrap: normal;
@@ -25,7 +40,7 @@
     }
 
     a:link, a:visited, a:hover, a:active {
-      color: black;
+      color: white;
       font-weight: bold;
       text-decoration: none;
     }
@@ -37,17 +52,18 @@
 </head>
 <body>
   <div class="content">
-    <a href="https://open.spotify.com/artist/7mUsBZ6g6BbAu2MBU8Nsu3">Spotify</a>
-    <a href="https://nanobii.bandcamp.com">Bandcamp</a>
-    <a href="https://youtube.com/c/nanobii">YouTube</a>
-    <a href="https://twitter.com/nanobii">Twitter</a>
-    <a href="https://facebook.com/imnanobii">Facebook</a>
+    <img alt="logo" src="nanobii_logo.png">
+    <div class"info">
+      <a href="https://open.spotify.com/artist/7mUsBZ6g6BbAu2MBU8Nsu3">Spotify</a>
+      <a href="https://nanobii.bandcamp.com">Bandcamp</a>
+      <a href="https://youtube.com/c/nanobii">YouTube</a>
+      <a href="https://twitter.com/nanobii">Twitter</a>
+      <a href="https://facebook.com/imnanobii">Facebook</a>
 
-    <p>
-      Questions? Email hello[at]nanobii.com or send me a message on Twitter.
-    </p>
-
-    ♥
+      <p>
+        Questions? Email hello[at]nanobii.com or send me a message on Twitter.
+      </p>
+    </div>
   </div>
 </body>
 </html>
