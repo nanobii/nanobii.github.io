@@ -4,96 +4,98 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>nanobii</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
     <style>
       html {
         background: #fff;
       }
 
-      .icon {
-        margin: 1.3rem;
+      .icon.social {
+        margin: 1rem;
       }
 
-      a {
-        color: #363636;
-      }
-
-      .field {
-        width: 200px;
+      .column {
+        margin-top: 3rem;
       }
 
     </style>
   </head>
   <body>
-    <section class="hero is-default is-fullheight">
+    <section class="hero is-fullheight">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <div class="columns">
-            <div class="column is-half is-offset-one-quarter">
-              <a href="https://open.spotify.com/artist/7mUsBZ6g6BbAu2MBU8Nsu3?si=agH9hfO8SceOJbFVHr16Mw" target="_blank">
-                <span class="icon is-large">
-                  <i class="fab fa-spotify fa-3x"></i>
-                </span>
-              </a>
-              <a href="https://geo.itunes.apple.com/us/artist/nanobii/820544147?mt=1&app=music" target="_blank">
-                <span class="icon is-large">
-                  <i class="fab fa-itunes-note fa-3x"></i>
-                </span>
-              </a>
-              <a href="https://play.google.com/store/music/artist/nanobii?id=Aioxr2nz6ahhce5mlgzodshr35q" target="_blank">
-                <span class="icon is-large">
-                  <i class="fab fa-google-play fa-3x"></i>
-                </span>
-              </a>
-              <a href="https://nanobii.bandcamp.com" target="_blank">
-                <span class="icon is-large">
-                  <i class="fab fa-bandcamp fa-3x"></i>
-                </span>
-              </a>
-              <a href="https://twitter.com/nanobii" target="_blank">
-                <span class="icon is-large">
-                <i class="fab fa-twitter fa-3x"></i>
-                </span>
-              </a>
-              <a href=" https://www.instagram.com/imnanobii/" target="_blank">
-                <span class="icon is-large">
-                <i class="fab fa-instagram fa-3x"></i>
-                </span>
-              </a>
-              <a href="https://discord.gg/NqUsGj3" target="_blank">
-                <span class="icon is-large">
-                <i class="fab fa-discord fa-3x"></i>
-              </a>
-              <a href="https://patreon.com/nanobii" target="_blank">
-                <span class="icon is-large">
-                <i class="fab fa-patreon fa-3x"></i>
-              </a>
-              <a href="mailto:hello@nanobii.com">
-                <span class="icon is-large">
-                <i class="fas fa-envelope fa-3x"></i>
-              </a>
-            </div>
-          </div>
+          <a href="https://open.spotify.com/artist/7mUsBZ6g6BbAu2MBU8Nsu3?si=agH9hfO8SceOJbFVHr16Mw" target="_blank">
+            <span class="icon social is-large">
+              <i class="fab fa-spotify fa-3x has-text-grey-darker"></i>
+            </span>
+          </a>
+          <a href="https://geo.itunes.apple.com/us/artist/nanobii/820544147?mt=1&app=music" target="_blank">
+            <span class="icon social is-large">
+              <i class="fab fa-itunes-note fa-3x has-text-grey-darker"></i>
+            </span>
+          </a>
+          <a href="https://play.google.com/store/music/artist/nanobii?id=Aioxr2nz6ahhce5mlgzodshr35q" target="_blank">
+            <span class="icon social is-large">
+              <i class="fab fa-google-play fa-3x has-text-grey-darker"></i>
+            </span>
+          </a>
+          <a href="https://nanobii.bandcamp.com" target="_blank">
+            <span class="icon social is-large">
+              <i class="fab fa-bandcamp fa-3x has-text-grey-darker"></i>
+            </span>
+          </a>
+          <a href="https://twitter.com/nanobii" target="_blank">
+            <span class="icon social is-large">
+            <i class="fab fa-twitter fa-3x has-text-grey-darker"></i>
+            </span>
+          </a>
+          <a href=" https://www.instagram.com/imnanobii/" target="_blank">
+            <span class="icon social is-large">
+            <i class="fab fa-instagram fa-3x has-text-grey-darker"></i>
+            </span>
+          </a>
+          <a href="https://discord.gg/NqUsGj3" target="_blank">
+            <span class="icon social is-large">
+            <i class="fab fa-discord fa-3x has-text-grey-darker"></i>
+          </a>
+          <a href="https://patreon.com/nanobii" target="_blank">
+            <span class="icon social is-large">
+            <i class="fab fa-patreon fa-3x has-text-grey-darker"></i>
+          </a>
+          <a href="mailto:hello@nanobii.com">
+            <span class="icon social is-large">
+            <i class="fas fa-envelope fa-3x has-text-grey-darker"></i>
+          </a>
 
           <div class="columns">
-            <div class="column is-narrow">
+            <div class="column is-4 is-offset-4 is-full-mobile">
+              <form action="https://nanobii.us7.list-manage.com/subscribe/post?u=09914e508c006349ceee7b14f&amp;id=cd98baa260"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+              target="_blank" novalidate>
+              <h5 class="title is-5">Subscribe to my newsletter!</h5>
               <div class="field">
                 <p class="control has-icons-left">
-                  <input class="input" type="email" placeholder="Email">
+                  <input class="input email" type="email" placeholder="Email" name="EMAIL" id="mce-EMAIL">
                   <span class="icon is-small is-left">
                     <i class="fas fa-envelope"></i>
                   </span>
                 </p>
               </div>
 
+              <!-- Bot prevention-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_09914e508c006349ceee7b14f_cd98baa260" tabindex="-1" value="">
+              </div>
+
               <div class="field">
                 <p class="control">
-                  <button class="button is-success">
+                  <button class="button is-dark is-fullwidth" >
                     Subscribe
                   </button>
                 </p>
               </div>
+              </form>
             </div>
           </div>
         </div>
